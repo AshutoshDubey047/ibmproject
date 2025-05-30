@@ -1,0 +1,31 @@
+<app-nav-bar
+  [canGoBack]="true"
+  [canGoForward]="true"
+  (back)="onBack()"
+  (forward)="onNext()">
+</app-nav-bar>
+
+<div class="education-detail-container">
+  <h2>{{ educationPath?.title }}</h2>
+  <p>{{ educationPath?.overview }}</p>
+
+  <h3>Course Steps</h3>
+  <ol>
+    <li *ngFor="let step of educationPath?.courseSteps">{{ step }}</li>
+  </ol>
+
+  <div *ngIf="educationPath?.certifications?.length">
+    <h3>Optional Certifications</h3>
+    <ul>
+<li *ngFor="let cert of educationPath?.certifications">{{ cert }}</li>
+
+    </ul>
+  </div>
+
+  <p><strong>Estimated Duration:</strong> {{ educationPath?.duration }}</p>
+
+  <div *ngIf="educationPath?.readinessTestAvailable" class="readiness-test">
+    <p>Ready to take a readiness test to assess your preparation?</p>
+    <button (click)="onNext()">Take Readiness Test</button>
+  </div>
+</div>

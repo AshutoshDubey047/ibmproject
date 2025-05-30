@@ -1,0 +1,6 @@
+
+<nav class="nav-bar">
+  <button class="nav-btn" [disabled]="!canGoBack" (click)="back.emit()">← Back</button>
+  <ng-content></ng-content>
+  <button class="nav-btn" [disabled]="!canGoForward" (click)="forward.emit()">Next →</button>
+</nav>

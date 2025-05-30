@@ -1,0 +1,75 @@
+<!-- profile.component.html -->
+
+<!-- Global Navigation Bar -->
+<app-nav-bar
+  [canGoBack]="true"
+  [canGoForward]="isFormComplete()"
+  (back)="onBack()"
+  (forward)="onNext()">
+</app-nav-bar>
+
+<!-- Profile Form Container -->
+<div class="profile-form-container">
+  <h2>User Profile</h2>
+
+  <!-- Academic Level / Enrollment Status -->
+  <div class="form-group">
+    <label for="academicLevel">Current Academic Level / Enrollment Status:</label>
+    <div class="scroll-list" id="academicLevel">
+      <button
+        *ngFor="let option of academicLevels"
+        type="button"
+        [class.selected]="selectedAcademicLevel === option.value"
+        (click)="onAcademicLevelChange(option.value)">
+        {{ option.label }}
+      </button>
+      <button
+        type="button"
+        [class.selected]="showManualAcademicInput"
+        (click)="onAcademicLevelChange('other')">
+        Other
+      </button>
+    </div>
+    <input
+      *ngIf="showManualAcademicInput"
+      type="text"
+      [(ngModel)]="manualAcademicInput"
+      placeholder="Enter your academic level manually"
+      class="manual-input"
+    />
+  </div>
+
+  <!-- Subjects Taken (only for 10th/12th) -->
+  <div *ngIf="isAcademicPassed10or12()" class="form-group">
+    <label for="subjectsTaken">What subjects have you taken?</label>
+    <textarea
+      id="subjectsTaken"
+      rows="3"
+      [(ngModel)]="subjectsTaken"
+      placeholder="List your subjects here"
+      class="subjects-input"
+    ></textarea>
+  </div>
+
+  <!-- Preferred Field of Interest -->
+  <div class="form-group">
+    <label for="preferredField">Preferred Field of Interest:</label>
+    <select
+      id="preferredField"
+      [(ngModel)]="preferredField"
+      (ngModelChange)="onPreferredFieldChange($event)"
+      class="select-field"
+    >
+      <option value="" disabled>Select a field</option>
+      <option *ngFor="let field of preferredFields" [value]="field">{{ field }}</option>
+      <option value="other">Other</option>
+    </select>
+    <input
+      *ngIf="showManualPreferredFieldInput"
+      type="text"
+      [(ngModel)]="manualPreferredFieldInput"
+      placeholder="Enter your preferred field"
+      class="manual-input"
+    />
+  </div>
+</div>

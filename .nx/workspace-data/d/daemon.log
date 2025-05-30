@@ -1,0 +1,46 @@
+node:internal/modules/cjs/loader:1031
+  throw err;
+  ^
+
+Error: Cannot find module 'resolve.exports'
+Require stack:
+- C:\Users\ashut\Downloads\ibmproject-Ashutosh (1)\ibmproject-Ashutosh\node_modules\nx\src\config\schema-utils.js
+- C:\Users\ashut\Downloads\ibmproject-Ashutosh (1)\ibmproject-Ashutosh\node_modules\nx\src\command-line\run\executor-utils.js
+- C:\Users\ashut\Downloads\ibmproject-Ashutosh (1)\ibmproject-Ashutosh\node_modules\nx\src\project-graph\utils\project-configuration-utils.js
+- C:\Users\ashut\Downloads\ibmproject-Ashutosh (1)\ibmproject-Ashutosh\node_modules\nx\src\utils\package-json.js
+- C:\Users\ashut\Downloads\ibmproject-Ashutosh (1)\ibmproject-Ashutosh\node_modules\nx\src\utils\package-manager.js
+- C:\Users\ashut\Downloads\ibmproject-Ashutosh (1)\ibmproject-Ashutosh\node_modules\nx\src\devkit-internals.js
+- C:\Users\ashut\Downloads\ibmproject-Ashutosh (1)\ibmproject-Ashutosh\node_modules\nx\src\utils\assert-workspace-validity.js
+- C:\Users\ashut\Downloads\ibmproject-Ashutosh (1)\ibmproject-Ashutosh\node_modules\nx\src\project-graph\build-project-graph.js
+- C:\Users\ashut\Downloads\ibmproject-Ashutosh (1)\ibmproject-Ashutosh\node_modules\nx\src\project-graph\project-graph.js
+- C:\Users\ashut\Downloads\ibmproject-Ashutosh (1)\ibmproject-Ashutosh\node_modules\nx\src\utils\project-graph-utils.js
+- C:\Users\ashut\Downloads\ibmproject-Ashutosh (1)\ibmproject-Ashutosh\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- C:\Users\ashut\Downloads\ibmproject-Ashutosh (1)\ibmproject-Ashutosh\node_modules\nx\src\daemon\server\server.js
+- C:\Users\ashut\Downloads\ibmproject-Ashutosh (1)\ibmproject-Ashutosh\node_modules\nx\src\daemon\server\start.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1028:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:873:27)
+    at Module.require (node:internal/modules/cjs/loader:1100:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (C:\Users\ashut\Downloads\ibmproject-Ashutosh (1)\ibmproject-Ashutosh\node_modules\nx\src\config\schema-utils.js:8:27)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Module.require (node:internal/modules/cjs/loader:1100:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\ashut\\Downloads\\ibmproject-Ashutosh (1)\\ibmproject-Ashutosh\\node_modules\\nx\\src\\config\\schema-utils.js',
+    'C:\\Users\\ashut\\Downloads\\ibmproject-Ashutosh (1)\\ibmproject-Ashutosh\\node_modules\\nx\\src\\command-line\\run\\executor-utils.js',
+    'C:\\Users\\ashut\\Downloads\\ibmproject-Ashutosh (1)\\ibmproject-Ashutosh\\node_modules\\nx\\src\\project-graph\\utils\\project-configuration-utils.js',
+    'C:\\Users\\ashut\\Downloads\\ibmproject-Ashutosh (1)\\ibmproject-Ashutosh\\node_modules\\nx\\src\\utils\\package-json.js',
+    'C:\\Users\\ashut\\Downloads\\ibmproject-Ashutosh (1)\\ibmproject-Ashutosh\\node_modules\\nx\\src\\utils\\package-manager.js',
+    'C:\\Users\\ashut\\Downloads\\ibmproject-Ashutosh (1)\\ibmproject-Ashutosh\\node_modules\\nx\\src\\devkit-internals.js',
+    'C:\\Users\\ashut\\Downloads\\ibmproject-Ashutosh (1)\\ibmproject-Ashutosh\\node_modules\\nx\\src\\utils\\assert-workspace-validity.js',
+    'C:\\Users\\ashut\\Downloads\\ibmproject-Ashutosh (1)\\ibmproject-Ashutosh\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'C:\\Users\\ashut\\Downloads\\ibmproject-Ashutosh (1)\\ibmproject-Ashutosh\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'C:\\Users\\ashut\\Downloads\\ibmproject-Ashutosh (1)\\ibmproject-Ashutosh\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'C:\\Users\\ashut\\Downloads\\ibmproject-Ashutosh (1)\\ibmproject-Ashutosh\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'C:\\Users\\ashut\\Downloads\\ibmproject-Ashutosh (1)\\ibmproject-Ashutosh\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'C:\\Users\\ashut\\Downloads\\ibmproject-Ashutosh (1)\\ibmproject-Ashutosh\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}

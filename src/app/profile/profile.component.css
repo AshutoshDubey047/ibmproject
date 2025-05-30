@@ -1,0 +1,56 @@
+.profile-form-container {
+  margin-top: 80px;
+  padding: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.scroll-list {
+  display: flex;
+  overflow-x: auto;
+  gap: 0.5rem;
+  margin: 0.5rem 0 1rem 0;
+}
+
+.scroll-list button {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  background: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.scroll-list button.selected {
+  background: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
+
+input, select, textarea {
+  display: block;
+  width: 100%;
+  margin: 0.5rem 0 0.5rem 0;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.manual-input {
+  margin-bottom: 1rem;
+}
+
+.select-field {
+  margin-bottom: 1rem;
+}
+
+.subjects-input {
+  margin-bottom: 1rem;
+}

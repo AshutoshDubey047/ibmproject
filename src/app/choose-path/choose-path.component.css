@@ -1,0 +1,75 @@
+.choose-path-container {
+  margin-top: 80px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+
+.choose-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.choose-buttons button {
+  flex: 1;
+  padding: 1rem;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  border: 1px solid #007bff;
+  background: #fff;
+  color: #007bff;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.choose-buttons button.selected,
+.choose-buttons button:hover {
+  background: #007bff;
+  color: #fff;
+}
+
+.skills-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+.skills-tags span {
+  background: #eee;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.skills-tags span.selected {
+  background: #007bff;
+  color: #fff;
+}
+
+.skill-input {
+  width: 120px;
+  margin-left: 0.5rem;
+  padding: 0.3rem 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.panel {
+  margin-top: 1.5rem;
+}
+
+.suggestion-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 6px #eee;
+}
