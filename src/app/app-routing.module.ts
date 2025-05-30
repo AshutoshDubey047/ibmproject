@@ -18,6 +18,7 @@ const routes: Routes = [
   { path: 'services', component: ServicesComponent },
 
   { path: 'nav-bar',component: NavBarComponent},
+
   { path: 'choose-path', component:ChoosePathComponent},
     { path: 'education-detail', component:EducationDetailComponent },
 //   { path: 'assessment', component: AssessmentComponent },
