@@ -1,1 +1,52 @@
-<p>assessment works!</p>
+<app-nav-bar
+  [canGoBack]="true"
+  [canGoForward]="showResults"
+  (back)="onBack()"
+  (forward)="onNext()">
+</app-nav-bar>
+
+<div class="assessment-container">
+  <h2>Skill/Knowledge Assessment</h2>
+
+  <div *ngIf="!showResults && questions.length > 0">
+    <div class="question-block">
+      <p><strong>Question {{ currentQuestionIndex + 1 }} of {{ questions.length }}:</strong></p>
+      <p>{{ questions[currentQuestionIndex].text }}</p>
+      <ul>
+        <li *ngFor="let option of questions[currentQuestionIndex].options; let i = index">
+          <label>
+            <input
+              type="radio"
+              [name]="'option' + currentQuestionIndex"
+              [checked]="questions[currentQuestionIndex].selected === i"
+              (change)="selectOption(i)"
+            />
+            {{ option }}
+          </label>
+        </li>
+      </ul>
+    </div>
+
+    <div class="assessment-buttons">
+      <button (click)="prevQuestion()" [disabled]="currentQuestionIndex === 0">Previous</button>
+      <button (click)="nextQuestion()" [disabled]="currentQuestionIndex === questions.length - 1">Next</button>
+      <button
+        (click)="submit()"
+        [disabled]="isAnyQuestionUnanswered()">
+        Submit
+      </button>
+    </div>
+  </div>
+
+  <div *ngIf="showResults" class="results-block">
+    <h3>Your Score: {{ score }} / {{ questions.length }}</h3>
+    <div *ngIf="score >= passMark; else failBlock">
+      <p>🎉 <strong>Congratulations! You did it.</strong></p>
+      <button (click)="onNext()">Continue</button>
+    </div>
+    <ng-template #failBlock>
+      <p>😅 <strong>You may need more preparation, but don’t give up.</strong></p>
+      <button (click)="restart()">Retry</button>
+    </ng-template>
+  </div>
+</div>

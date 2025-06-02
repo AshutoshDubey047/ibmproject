@@ -44,3 +44,404 @@ Require stack:
     'C:\\Users\\ashut\\Downloads\\ibmproject-Ashutosh (1)\\ibmproject-Ashutosh\\node_modules\\nx\\src\\daemon\\server\\start.js'
   ]
 }
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:02:18.483Z - Started listening on: \\.\pipe\nx\C:\Users\ashut\AppData\Local\Temp\f4ebb13d193885359ea5\d.sock
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:02:18.495Z - [WATCHER]: Subscribed to changes within: C:\Users\ashut\Downloads\ibmproject-Ashutosh (1)\ibmproject-Ashutosh (native)
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:02:18.504Z - Established a connection. Number of open connections: 1
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:02:18.508Z - Closed a connection. Number of open connections: 0
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:02:18.509Z - Established a connection. Number of open connections: 1
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:02:18.516Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:02:18.518Z - Done responding to the client Shutdown initiated
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:02:18.519Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 4.
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:02:18.520Z - Closed a connection. Number of open connections: 0
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:02:18.521Z - [WATCHER]: Stopping the watcher for C:\Users\ashut\Downloads\ibmproject-Ashutosh (1)\ibmproject-Ashutosh (sources)
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:02:18.522Z - [WATCHER]: Stopping the watcher for C:\Users\ashut\Downloads\ibmproject-Ashutosh (1)\ibmproject-Ashutosh (outputs)
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:02:18.523Z - Server stopped because: "Request to shutdown"
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:22:13.849Z - Started listening on: \\.\pipe\nx\C:\Users\ashut\AppData\Local\Temp\897f1b45a795420630a2\d.sock
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:22:13.854Z - [WATCHER]: Subscribed to changes within: c:\Users\ashut\Desktop\ibmproject-Ashutosh (1)\ibmproject-Ashutosh (native)
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:22:13.876Z - Established a connection. Number of open connections: 1
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:22:13.881Z - Closed a connection. Number of open connections: 0
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:22:13.918Z - Established a connection. Number of open connections: 1
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:22:13.919Z - Closed a connection. Number of open connections: 0
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:22:13.920Z - Established a connection. Number of open connections: 1
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:22:13.924Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:22:13.965Z - Time taken for 'loadSpecifiedNxPlugins' 4.7047000000000025ms
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:22:14.416Z - Time taken for 'Load Nx Plugin: c:\Users\ashut\Desktop\ibmproject-Ashutosh (1)\ibmproject-Ashutosh\node_modules\nx\src\plugins\package-json' 487.1728999999999ms
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:22:14.419Z - Time taken for 'Load Nx Plugin: c:\Users\ashut\Desktop\ibmproject-Ashutosh (1)\ibmproject-Ashutosh\node_modules\nx\src\plugins\project-json\build-nodes\project-json' 488.6597999999999ms
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:22:14.461Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:22:14.462Z - [REQUEST]: 
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:22:14.462Z - [REQUEST]: 
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:22:14.471Z - Time taken for 'loadDefaultNxPlugins' 535.0807ms
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:22:14.553Z - Time taken for 'build-project-configs' 54.171800000000076ms
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:22:14.751Z - [SYNC]: collect registered sync generators
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:22:14.753Z - [REQUEST]: Responding to the client. project-graph
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:22:14.755Z - Time taken for 'total for creating and serializing project graph' 828.6645ms
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:22:14.756Z - Done responding to the client project-graph
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:22:14.756Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 829. Response time: 3.
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:22:14.768Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:22:14.769Z - Done responding to the client handleContextFileData
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:22:14.769Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 1. Response time: 1.
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:22:14.772Z - Closed a connection. Number of open connections: 0
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:22:20.962Z - [WATCHER]: .github/instructions/nx.instructions.md was modified
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:22:20.964Z - [WATCHER]: Processing file changes in outputs
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:22:21.108Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:22:21.109Z - [REQUEST]: .github/instructions/nx.instructions.md
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:22:21.109Z - [REQUEST]: 
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:22:21.114Z - Time taken for 'hash changed files from watcher' 39.41280000000006ms
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:22:21.168Z - Time taken for 'build-project-configs' 41.54559999999947ms
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:22:21.267Z - [SYNC]: collect registered sync generators
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:22:21.269Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:22:21.269Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:22:21.270Z - Time taken for 'total execution time for createProjectGraph()' 74.39540000000034ms
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:22:21.984Z - Established a connection. Number of open connections: 1
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:22:21.984Z - Closed a connection. Number of open connections: 0
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:22:21.985Z - Established a connection. Number of open connections: 1
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:22:21.986Z - Closed a connection. Number of open connections: 0
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:22:21.987Z - Established a connection. Number of open connections: 1
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:22:21.990Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:22:21.991Z - [REQUEST]: Responding to the client. project-graph
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:22:21.992Z - Time taken for 'total for creating and serializing project graph' 0.6841999999996915ms
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:22:21.992Z - Done responding to the client project-graph
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:22:21.992Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 1.
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:22:22.002Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:22:22.003Z - Done responding to the client handleContextFileData
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:22:22.003Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 1.
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:22:22.004Z - Closed a connection. Number of open connections: 0
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:24:11.581Z - [WATCHER]: Processing file changes in outputs
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:24:11.588Z - [WATCHER]: angular.json was modified
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:24:11.694Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:24:11.694Z - [REQUEST]: angular.json
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:24:11.694Z - [REQUEST]: 
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:24:11.697Z - Time taken for 'hash changed files from watcher' 0.3797000000049593ms
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:24:11.734Z - Time taken for 'build-project-configs' 29.113299999997253ms
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:24:11.836Z - [SYNC]: collect registered sync generators
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:24:11.837Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:24:11.837Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:24:11.838Z - Time taken for 'total execution time for createProjectGraph()' 75.61269999999786ms
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:24:12.595Z - Established a connection. Number of open connections: 1
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:24:12.595Z - Closed a connection. Number of open connections: 0
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:24:12.597Z - Established a connection. Number of open connections: 1
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:24:12.597Z - Closed a connection. Number of open connections: 0
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:24:12.598Z - Established a connection. Number of open connections: 1
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:24:12.605Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:24:12.607Z - [REQUEST]: Responding to the client. project-graph
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:24:12.610Z - Time taken for 'total for creating and serializing project graph' 1.6613999999972293ms
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:24:12.611Z - Done responding to the client project-graph
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:24:12.611Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 2. Response time: 4.
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:24:12.635Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:24:12.636Z - Done responding to the client handleContextFileData
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:24:12.636Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 1. Response time: 1.
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:24:12.637Z - Closed a connection. Number of open connections: 0
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:25:11.650Z - [WATCHER]: angular.json was modified
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:25:11.650Z - [WATCHER]: Processing file changes in outputs
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:25:11.760Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:25:11.760Z - [REQUEST]: angular.json
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:25:11.760Z - [REQUEST]: 
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:25:11.763Z - Time taken for 'hash changed files from watcher' 0.3603000000002794ms
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:25:11.804Z - Time taken for 'build-project-configs' 32.12109999998938ms
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:25:11.887Z - [SYNC]: collect registered sync generators
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:25:11.889Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:25:11.890Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:25:11.890Z - Time taken for 'total execution time for createProjectGraph()' 58.85000000000582ms
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:25:12.661Z - Established a connection. Number of open connections: 1
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:25:12.662Z - Closed a connection. Number of open connections: 0
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:25:12.663Z - Established a connection. Number of open connections: 1
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:25:12.663Z - Closed a connection. Number of open connections: 0
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:25:12.664Z - Established a connection. Number of open connections: 1
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:25:12.669Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:25:12.671Z - [REQUEST]: Responding to the client. project-graph
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:25:12.674Z - Time taken for 'total for creating and serializing project graph' 1.493799999996554ms
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:25:12.675Z - Done responding to the client project-graph
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:25:12.675Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 2. Response time: 4.
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:25:12.688Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:25:12.689Z - Done responding to the client handleContextFileData
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:25:12.689Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 1. Response time: 1.
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:25:12.689Z - Closed a connection. Number of open connections: 0
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:27:32.163Z - [WATCHER]: angular.json was modified
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:27:32.164Z - [WATCHER]: Processing file changes in outputs
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:27:32.266Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:27:32.266Z - [REQUEST]: angular.json
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:27:32.266Z - [REQUEST]: 
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:27:32.270Z - Time taken for 'hash changed files from watcher' 0.4653999999864027ms
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:27:32.325Z - Time taken for 'build-project-configs' 41.40640000003623ms
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:27:32.450Z - [SYNC]: collect registered sync generators
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:27:32.452Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:27:32.452Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:27:32.453Z - Time taken for 'total execution time for createProjectGraph()' 86.08170000003884ms
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:27:33.177Z - Established a connection. Number of open connections: 1
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:27:33.177Z - Closed a connection. Number of open connections: 0
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:27:33.179Z - Established a connection. Number of open connections: 1
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:27:33.179Z - Closed a connection. Number of open connections: 0
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:27:33.180Z - Established a connection. Number of open connections: 1
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:27:33.186Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:27:33.188Z - [REQUEST]: Responding to the client. project-graph
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:27:33.190Z - Time taken for 'total for creating and serializing project graph' 1.9224999999860302ms
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:27:33.191Z - Done responding to the client project-graph
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:27:33.191Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 2. Response time: 3.
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:27:33.210Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:27:33.211Z - Done responding to the client handleContextFileData
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:27:33.212Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 1. Response time: 2.
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:27:33.213Z - Closed a connection. Number of open connections: 0
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:29:04.665Z - [WATCHER]: Processing file changes in outputs
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:29:04.669Z - [WATCHER]: angular.json was modified
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:29:04.773Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:29:04.773Z - [REQUEST]: angular.json
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:29:04.773Z - [REQUEST]: 
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:29:04.777Z - Time taken for 'hash changed files from watcher' 0.48579999996582046ms
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:29:04.824Z - Time taken for 'build-project-configs' 35.90929999999935ms
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:29:04.893Z - [SYNC]: collect registered sync generators
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:29:04.894Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:29:04.894Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:29:04.894Z - Time taken for 'total execution time for createProjectGraph()' 55.02430000004824ms
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:29:05.687Z - Established a connection. Number of open connections: 1
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:29:05.687Z - Closed a connection. Number of open connections: 0
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:29:05.688Z - Established a connection. Number of open connections: 1
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:29:05.689Z - Closed a connection. Number of open connections: 0
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:29:05.690Z - Established a connection. Number of open connections: 1
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:29:05.695Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:29:05.697Z - [REQUEST]: Responding to the client. project-graph
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:29:05.704Z - Time taken for 'total for creating and serializing project graph' 1.858600000035949ms
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:29:05.705Z - Done responding to the client project-graph
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:29:05.705Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 2. Response time: 8.
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:29:05.724Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:29:05.725Z - Done responding to the client handleContextFileData
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:29:05.725Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 1. Response time: 1.
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:29:05.726Z - Closed a connection. Number of open connections: 0
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:32:17.855Z - [WATCHER]: Processing file changes in outputs
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:32:17.859Z - [WATCHER]: angular.json was modified
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:32:17.967Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:32:17.968Z - [REQUEST]: angular.json
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:32:17.968Z - [REQUEST]: 
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:32:17.972Z - Time taken for 'hash changed files from watcher' 0.5000999999465421ms
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:32:18.016Z - Time taken for 'build-project-configs' 37.67330000002403ms
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:32:18.081Z - [SYNC]: collect registered sync generators
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:32:18.082Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:32:18.083Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:32:18.083Z - Time taken for 'total execution time for createProjectGraph()' 47.98649999999907ms
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:32:18.877Z - Established a connection. Number of open connections: 1
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:32:18.877Z - Closed a connection. Number of open connections: 0
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:32:18.879Z - Established a connection. Number of open connections: 1
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:32:18.879Z - Closed a connection. Number of open connections: 0
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:32:18.880Z - Established a connection. Number of open connections: 1
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:32:18.886Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:32:18.888Z - [REQUEST]: Responding to the client. project-graph
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:32:18.892Z - Time taken for 'total for creating and serializing project graph' 1.9227999999420717ms
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:32:18.893Z - Done responding to the client project-graph
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:32:18.893Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 2. Response time: 5.
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:32:18.912Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:32:18.913Z - Done responding to the client handleContextFileData
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:32:18.913Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 1. Response time: 1.
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:32:18.914Z - Closed a connection. Number of open connections: 0
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:34:56.679Z - [WATCHER]: angular.json was modified
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:34:56.680Z - [WATCHER]: Processing file changes in outputs
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:34:56.805Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:34:56.806Z - [REQUEST]: angular.json
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:34:56.806Z - [REQUEST]: 
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:34:56.810Z - Time taken for 'hash changed files from watcher' 19.773599999956787ms
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:34:56.857Z - Time taken for 'build-project-configs' 31.87290000007488ms
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:34:56.968Z - [SYNC]: collect registered sync generators
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:34:56.969Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:34:56.970Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:34:56.970Z - Time taken for 'total execution time for createProjectGraph()' 77.8185999999987ms
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:34:57.688Z - Established a connection. Number of open connections: 1
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:34:57.689Z - Closed a connection. Number of open connections: 0
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:34:57.690Z - Established a connection. Number of open connections: 1
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:34:57.690Z - Closed a connection. Number of open connections: 0
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:34:57.691Z - Established a connection. Number of open connections: 1
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:34:57.697Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:34:57.699Z - [REQUEST]: Responding to the client. project-graph
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:34:57.703Z - Time taken for 'total for creating and serializing project graph' 1.4766000000527129ms
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:34:57.705Z - Done responding to the client project-graph
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:34:57.706Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 2. Response time: 7.
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:34:57.724Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:34:57.725Z - Done responding to the client handleContextFileData
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:34:57.725Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 1.
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:34:57.726Z - Closed a connection. Number of open connections: 0
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:35:20.597Z - [WATCHER]: angular.json was modified
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:35:20.598Z - [WATCHER]: Processing file changes in outputs
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:35:20.711Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:35:20.711Z - [REQUEST]: angular.json
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:35:20.711Z - [REQUEST]: 
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:35:20.714Z - Time taken for 'hash changed files from watcher' 0.5605000000214204ms
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:35:20.745Z - Time taken for 'build-project-configs' 24.141699999920093ms
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:35:20.801Z - [SYNC]: collect registered sync generators
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:35:20.802Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:35:20.802Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:35:20.802Z - Time taken for 'total execution time for createProjectGraph()' 40.524600000004284ms
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:35:21.610Z - Established a connection. Number of open connections: 1
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:35:21.611Z - Closed a connection. Number of open connections: 0
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:35:21.611Z - Established a connection. Number of open connections: 1
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:35:21.612Z - Closed a connection. Number of open connections: 0
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:35:21.612Z - Established a connection. Number of open connections: 1
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:35:21.615Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:35:21.616Z - [REQUEST]: Responding to the client. project-graph
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:35:21.618Z - Time taken for 'total for creating and serializing project graph' 0.7192999999970198ms
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:35:21.618Z - Done responding to the client project-graph
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:35:21.619Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 3.
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:35:21.629Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:35:21.629Z - Done responding to the client handleContextFileData
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:35:21.630Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 1. Response time: 0.
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:35:21.630Z - Closed a connection. Number of open connections: 0
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:49:05.671Z - [WATCHER]: Processing file changes in outputs
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:49:05.677Z - [WATCHER]: angular.json was modified
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:49:05.779Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:49:05.780Z - [REQUEST]: angular.json
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:49:05.780Z - [REQUEST]: 
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:49:05.782Z - Time taken for 'hash changed files from watcher' 0.4187000000383705ms
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:49:05.826Z - Time taken for 'build-project-configs' 32.4140999999363ms
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:49:05.904Z - [SYNC]: collect registered sync generators
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:49:05.906Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:49:05.907Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:49:05.907Z - Time taken for 'total execution time for createProjectGraph()' 60.58190000010654ms
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:49:06.691Z - Established a connection. Number of open connections: 1
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:49:06.691Z - Closed a connection. Number of open connections: 0
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:49:06.692Z - Established a connection. Number of open connections: 1
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:49:06.692Z - Closed a connection. Number of open connections: 0
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:49:06.692Z - Established a connection. Number of open connections: 1
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:49:06.695Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:49:06.695Z - [REQUEST]: Responding to the client. project-graph
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:49:06.697Z - Time taken for 'total for creating and serializing project graph' 0.7127000000327826ms
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:49:06.698Z - Done responding to the client project-graph
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:49:06.698Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 3.
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:49:06.710Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:49:06.710Z - Done responding to the client handleContextFileData
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:49:06.710Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 1. Response time: 0.
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:49:06.711Z - Closed a connection. Number of open connections: 0
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:49:20.824Z - [WATCHER]: angular.json was modified
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:49:20.825Z - [WATCHER]: Processing file changes in outputs
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:49:20.937Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:49:20.939Z - [REQUEST]: angular.json
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:49:20.939Z - [REQUEST]: 
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:49:20.944Z - Time taken for 'hash changed files from watcher' 0.4477999999653548ms
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:49:20.974Z - Time taken for 'build-project-configs' 24.78139999997802ms
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:49:21.079Z - [SYNC]: collect registered sync generators
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:49:21.081Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:49:21.082Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:49:21.082Z - Time taken for 'total execution time for createProjectGraph()' 68.10260000010021ms
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:49:21.845Z - Established a connection. Number of open connections: 1
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:49:21.845Z - Closed a connection. Number of open connections: 0
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:49:21.846Z - Established a connection. Number of open connections: 1
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:49:21.847Z - Closed a connection. Number of open connections: 0
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:49:21.847Z - Established a connection. Number of open connections: 1
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:49:21.853Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:49:21.855Z - [REQUEST]: Responding to the client. project-graph
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:49:21.858Z - Time taken for 'total for creating and serializing project graph' 1.803200000198558ms
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:49:21.859Z - Done responding to the client project-graph
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:49:21.859Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 2. Response time: 4.
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:49:21.869Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:49:21.870Z - Done responding to the client handleContextFileData
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:49:21.870Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 1.
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:49:21.871Z - Closed a connection. Number of open connections: 0
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:52:35.627Z - [WATCHER]: angular.json was modified
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:52:35.627Z - [WATCHER]: Processing file changes in outputs
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:52:35.739Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:52:35.739Z - [REQUEST]: angular.json
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:52:35.739Z - [REQUEST]: 
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:52:35.744Z - Time taken for 'hash changed files from watcher' 1.6136000000406057ms
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:52:35.814Z - Time taken for 'build-project-configs' 57.29700000002049ms
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:52:35.906Z - [SYNC]: collect registered sync generators
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:52:35.908Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:52:35.908Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:52:35.909Z - Time taken for 'total execution time for createProjectGraph()' 76.57080000010319ms
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:52:36.650Z - Established a connection. Number of open connections: 1
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:52:36.651Z - Closed a connection. Number of open connections: 0
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:52:36.652Z - Established a connection. Number of open connections: 1
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:52:36.652Z - Closed a connection. Number of open connections: 0
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:52:36.653Z - Established a connection. Number of open connections: 1
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:52:36.658Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:52:36.660Z - [REQUEST]: Responding to the client. project-graph
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:52:36.664Z - Time taken for 'total for creating and serializing project graph' 1.7837000000290573ms
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:52:36.665Z - Done responding to the client project-graph
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:52:36.665Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 2. Response time: 5.
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:52:36.681Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:52:36.683Z - Done responding to the client handleContextFileData
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:52:36.683Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 2.
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:52:36.684Z - Closed a connection. Number of open connections: 0
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:56:32.712Z - [WATCHER]: angular.json was modified
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:56:32.713Z - [WATCHER]: Processing file changes in outputs
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:56:32.816Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:56:32.817Z - [REQUEST]: angular.json
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:56:32.817Z - [REQUEST]: 
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:56:32.825Z - Time taken for 'hash changed files from watcher' 1.7981000000145286ms
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:56:32.892Z - Time taken for 'build-project-configs' 52.47290000016801ms
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:56:33.030Z - [SYNC]: collect registered sync generators
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:56:33.033Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:56:33.033Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.1.2 Daemon Server] - 2025-06-02T15:56:33.033Z - Time taken for 'total execution time for createProjectGraph()' 99.6984999999404ms

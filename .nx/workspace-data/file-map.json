@@ -1,0 +1,331 @@
+{
+  "version": "6.0",
+  "nxVersion": "21.1.2",
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "src/app/app.component.html",
+        "hash": "13203364803498886062"
+      },
+      {
+        "file": "tsconfig.spec.json",
+        "hash": "17198424518534092990"
+      },
+      {
+        "file": "src/polyfills.ts",
+        "hash": "2035846685621806592"
+      },
+      {
+        "file": "src/app/home/home.component.ts",
+        "hash": "9424261118267987728"
+      },
+      {
+        "file": "src/app/services/services.component.html",
+        "hash": "15598826750710490382"
+      },
+      {
+        "file": "src/app/app.component.css",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/favicon.ico",
+        "hash": "3464744996580215640"
+      },
+      {
+        "file": "src/app/error-page/error-page.component.html",
+        "hash": "11788970342991131714"
+      },
+      {
+        "file": "src/app/app.component.ts",
+        "hash": "16079994498889974311"
+      },
+      {
+        "file": "src/app/aboutus/aboutus.component.spec.ts",
+        "hash": "3545832515120865292"
+      },
+      {
+        "file": "src/app/final/final.component.html",
+        "hash": "8952508006560095047"
+      },
+      {
+        "file": "angular.json",
+        "hash": "15674761277788447394"
+      },
+      {
+        "file": "tsconfig.app.json",
+        "hash": "9041030522571917449"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "17166126475540056958"
+      },
+      {
+        "file": "src/app/assessment/assessment.component.ts",
+        "hash": "10099125134945854307"
+      },
+      {
+        "file": "src/app/final/final.component.ts",
+        "hash": "14868370488364507864"
+      },
+      {
+        "file": "src/app/nav-bar/nav-bar.component.spec.ts",
+        "hash": "12236812505845279480"
+      },
+      {
+        "file": "src/test.ts",
+        "hash": "1590235246187698726"
+      },
+      {
+        "file": "src/app/choose-path/choose-path.component.spec.ts",
+        "hash": "12806362139657567366"
+      },
+      {
+        "file": "src/app/services/services.component.css",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/education-detail/education-detail.component.html",
+        "hash": "2695439324697978402"
+      },
+      {
+        "file": "src/app/footer/footer.component.html",
+        "hash": "11310177604250908193"
+      },
+      {
+        "file": "decorate-angular-cli.js",
+        "hash": "9396980645667025874"
+      },
+      {
+        "file": "src/app/career-detail/career-detail.component.ts",
+        "hash": "10360011855405959636"
+      },
+      {
+        "file": "src/main.ts",
+        "hash": "10677612470474905821"
+      },
+      {
+        "file": "src/app/profile/profile.component.html",
+        "hash": "14308228319104849599"
+      },
+      {
+        "file": "src/app/app.module.ts",
+        "hash": "507390713482023477"
+      },
+      {
+        "file": ".browserslistrc",
+        "hash": "17600754102500844387"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "6686520031028425313"
+      },
+      {
+        "file": "karma.conf.js",
+        "hash": "10954936154690321117"
+      },
+      {
+        "file": "README.md",
+        "hash": "15759505117490972900"
+      },
+      {
+        "file": "src/app/choose-path/choose-path.component.html",
+        "hash": "14134652979473843716"
+      },
+      {
+        "file": "src/app/profile/profile.component.css",
+        "hash": "12859143965733068080"
+      },
+      {
+        "file": "src/app/education-detail/education-detail.component.spec.ts",
+        "hash": "11032218979453138060"
+      },
+      {
+        "file": "src/app/home/home.component.html",
+        "hash": "6405624518221811469"
+      },
+      {
+        "file": "src/app/error-page/error-page.component.ts",
+        "hash": "11661659902834846835"
+      },
+      {
+        "file": "src/app/assessment/assessment.component.html",
+        "hash": "4369799218564459491"
+      },
+      {
+        "file": "src/app/aboutus/aboutus.component.css",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/final/final.component.spec.ts",
+        "hash": "16080852192869893207"
+      },
+      {
+        "file": "src/app/app.component.spec.ts",
+        "hash": "14878897535838626705"
+      },
+      {
+        "file": "src/app/choose-path/choose-path.component.css",
+        "hash": "16290219539208612348"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "5331566439708925252"
+      },
+      {
+        "file": "src/app/aboutus/aboutus.component.html",
+        "hash": "17611250605544156019"
+      },
+      {
+        "file": "src/app/career-detail/career-detail.component.css",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/error-page/error-page.component.css",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/error-page/error-page.component.spec.ts",
+        "hash": "1322732774656052843"
+      },
+      {
+        "file": "src/app/nav-bar/nav-bar.component.html",
+        "hash": "251124772758929665"
+      },
+      {
+        "file": ".vscode/launch.json",
+        "hash": "4815948323043747099"
+      },
+      {
+        "file": ".github/instructions/nx.instructions.md",
+        "hash": "15436848478017958425"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "1219368869641091749"
+      },
+      {
+        "file": "src/app/services/services.component.spec.ts",
+        "hash": "12048893537828714409"
+      },
+      {
+        "file": "src/app/nav-bar/nav-bar.component.ts",
+        "hash": "13573950205572768398"
+      },
+      {
+        "file": "src/app/nav-bar/nav-bar.component.css",
+        "hash": "5005476079356638353"
+      },
+      {
+        "file": "src/app/assessment/assessment.component.css",
+        "hash": "16525931852261784479"
+      },
+      {
+        "file": "src/environments/environment.ts",
+        "hash": "17458466784506237106"
+      },
+      {
+        "file": "src/app/assessment/assessment.component.spec.ts",
+        "hash": "16614368643971680337"
+      },
+      {
+        "file": "src/index.html",
+        "hash": "2888579440176484643"
+      },
+      {
+        "file": "src/assets/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/home/home.component.css",
+        "hash": "13742768302270106986"
+      },
+      {
+        "file": "src/app/services/services.component.ts",
+        "hash": "5392503252955313318"
+      },
+      {
+        "file": "src/app/career-detail/career-detail.component.spec.ts",
+        "hash": "16179474544851012662"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "3534119390816726920"
+      },
+      {
+        "file": "src/app/footer/footer.component.css",
+        "hash": "12782894074923059841"
+      },
+      {
+        "file": "src/app/education-detail/education-detail.component.ts",
+        "hash": "15605260573875461925"
+      },
+      {
+        "file": ".vscode/tasks.json",
+        "hash": "5336636969995539451"
+      },
+      {
+        "file": "src/environments/environment.prod.ts",
+        "hash": "5406836414239361753"
+      },
+      {
+        "file": "src/app/education-detail/education-detail.component.css",
+        "hash": "10627633246001350679"
+      },
+      {
+        "file": "package.json",
+        "hash": "15734524930511455214"
+      },
+      {
+        "file": "src/app/footer/footer.component.spec.ts",
+        "hash": "9983519057068350389"
+      },
+      {
+        "file": "src/app/profile/profile.component.ts",
+        "hash": "16915468015413832235"
+      },
+      {
+        "file": "src/app/final/final.component.css",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "14583785613206692140"
+      },
+      {
+        "file": "src/app/app-routing.module.ts",
+        "hash": "5966441161794617302"
+      },
+      {
+        "file": "src/app/choose-path/choose-path.component.ts",
+        "hash": "9716076446483760425"
+      },
+      {
+        "file": "nx.json",
+        "hash": "14911237360677203558"
+      },
+      {
+        "file": "src/styles.css",
+        "hash": "5195668842064076916"
+      },
+      {
+        "file": "src/app/career-detail/career-detail.component.html",
+        "hash": "14078460145580106794"
+      },
+      {
+        "file": "src/app/footer/footer.component.ts",
+        "hash": "1403894911610685264"
+      },
+      {
+        "file": "src/app/aboutus/aboutus.component.ts",
+        "hash": "4806347653072977780"
+      },
+      {
+        "file": "src/app/profile/profile.component.spec.ts",
+        "hash": "16060949808953390943"
+      }
+    ],
+    "projectFileMap": {}
+  }
+}

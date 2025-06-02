@@ -19,7 +19,8 @@
     "@angular/platform-browser": "~13.3.0",
     "@angular/platform-browser-dynamic": "~13.3.0",
     "@angular/router": "~13.3.0",
-    "@nrwl/angular": "14.1.9",
+    "@nrwl/angular": "^19.8.4",
+    "bootstrap": "^5.3.6",
     "modules": "^0.4.0",
     "node": "^22.16.0",
     "node-g": "^1.0.0",
@@ -28,10 +29,10 @@
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~13.3.11",
-    "@angular/cli": "~13.3.11",
+    "@angular-devkit/build-angular": "^20.0.0",
+    "@angular/cli": "^20.0.0",
     "@angular/compiler-cli": "~13.3.0",
-    "@nrwl/workspace": "14.1.9",
+    "@nrwl/workspace": "^19.8.4",
     "@types/jasmine": "~3.10.0",
     "@types/node": "^12.11.1",
     "jasmine-core": "~4.0.0",
@@ -40,7 +41,7 @@
     "karma-coverage": "~2.1.0",
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
-    "nx": "14.1.9",
+    "nx": "^21.1.2",
     "typescript": "~4.6.2"
   }
 }

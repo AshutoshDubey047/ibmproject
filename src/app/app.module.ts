@@ -17,6 +17,7 @@ import { EducationDetailComponent } from './education-detail/education-detail.co
 import { AssessmentComponent } from './assessment/assessment.component';
 import { CareerDetailComponent } from './career-detail/career-detail.component';
 import { FinalComponent } from './final/final.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { FinalComponent } from './final/final.component';
     AssessmentComponent,
     CareerDetailComponent,
     FinalComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

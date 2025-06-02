@@ -8,6 +8,9 @@ import { ErrorPageComponent } from './error-page/error-page.component';
 import { EducationDetailComponent } from './education-detail/education-detail.component';
 import { ChoosePathComponent } from './choose-path/choose-path.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { AssessmentComponent } from './assessment/assessment.component';
+import { CareerDetailComponent } from './career-detail/career-detail.component';
+import { FinalComponent } from './final/final.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -21,11 +24,11 @@ const routes: Routes = [
 
   { path: 'choose-path', component:ChoosePathComponent},
     { path: 'education-detail', component:EducationDetailComponent },
-//   { path: 'assessment', component: AssessmentComponent },
-     //{ path: 'career-detail', component: CareerDetailComponent },
- // { path: 'final', component: FinalComponent },
+     { path: 'assessment', component: AssessmentComponent },
+      { path: 'career-detail', component:CareerDetailComponent },
+    { path: 'final', component: FinalComponent },
  { path: '**', redirectTo: 'profile' },
-// ];
+
  { path: '**', component: ErrorPageComponent },
 ];
 
