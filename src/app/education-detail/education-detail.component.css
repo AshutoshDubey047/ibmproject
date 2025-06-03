@@ -1,0 +1,37 @@
+.education-detail-container {
+  margin-top: 80px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+
+h2, h3 {
+  color: #007bff;
+}
+
+ol, ul {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.readiness-test {
+  margin-top: 2rem;
+}
+
+.readiness-test button {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.readiness-test button:hover {
+  background: #0056b3;
+}

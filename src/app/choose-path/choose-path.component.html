@@ -1,0 +1,72 @@
+<app-nav-bar
+  [canGoBack]="true"
+  [canGoForward]="canProceed()"
+  (back)="onBack()"
+  (forward)="onNext()">
+</app-nav-bar>
+
+<div class="choose-path-container">
+  <h2>Choose Your Path</h2>
+  <div class="choose-buttons">
+    <button
+      [class.selected]="selectedPath === 'career'"
+      (click)="selectPath('career')">
+      Career Suggestions
+    </button>
+    <button
+      [class.selected]="selectedPath === 'education'"
+      (click)="selectPath('education')">
+      Education Suggestions
+    </button>
+  </div>
+
+  <!-- Career Suggestions Panel -->
+  <div *ngIf="selectedPath === 'career'" class="panel">
+    <p>Do you already have any skills?</p>
+    <div class="skills-tags">
+      <span
+        *ngFor="let skill of availableSkills"
+        [class.selected]="selectedSkills.includes(skill)"
+        (click)="toggleSkill(skill)">
+        {{ skill }}
+      </span>
+      <input
+        [(ngModel)]="customSkill"
+        placeholder="Add skill"
+        (keyup.enter)="addCustomSkill()"
+        class="skill-input"
+      />
+      <button type="button" (click)="addCustomSkill()">Add</button>
+    </div>
+    <div *ngIf="selectedSkills.length > 0">
+      <h3>Career Suggestions</h3>
+      <div *ngFor="let career of careerSuggestions" class="suggestion-card">
+        <h4>{{ career.title }}</h4>
+        <p>{{ career.overview }}</p>
+        <ul>
+          <li><strong>Top Skills:</strong> {{ career.topSkills.join(', ') }}</li>
+          <li><strong>Mini-Project:</strong> {{ career.miniProject }}</li>
+          <li><strong>Top Companies:</strong> {{ career.companies.join(', ') }}</li>
+          <li><strong>Salary:</strong> {{ career.salary }}</li>
+          <li><strong>Location:</strong> {{ career.location }}</li>
+        </ul>
+        <button (click)="viewRoadmap(career)">View Roadmap</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Education Suggestions Panel -->
+  <div *ngIf="selectedPath === 'education'" class="panel">
+    <h3>Education Suggestions</h3>
+    <div *ngFor="let edu of educationSuggestions" class="suggestion-card">
+      <h4>{{ edu.title }}</h4>
+      <p>{{ edu.overview }}</p>
+      <ul>
+        <li><strong>Benefits:</strong> {{ edu.benefits }}</li>
+        <li><strong>Duration:</strong> {{ edu.duration }}</li>
+        <li><strong>Career Potential:</strong> {{ edu.careerPotential }}</li>
+      </ul>
+      <button (click)="selectEducation(edu)">Select</button>
+    </div>
+  </div>
+</div>
