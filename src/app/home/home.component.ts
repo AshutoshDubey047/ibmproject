@@ -10,4 +10,8 @@ export class AppHome implements OnInit{
      show(){
             alert("Show Function in pending")
         }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> e1cde9b3861c1fb0f85fc24c5d45cfb9f6235613

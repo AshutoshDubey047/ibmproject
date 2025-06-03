@@ -27,7 +27,11 @@ If the user wants to generate something, use the following flow:
 - wait for the user to finish the generator
 - read the generator log file using the 'nx_read_generator_log' tool
 - use the information provided in the log file to answer the user's question or continue with what they were doing
+<<<<<<< HEAD
 
+=======
+undefined
+>>>>>>> e1cde9b3861c1fb0f85fc24c5d45cfb9f6235613
 
 # CI Error Guidelines
 If the user wants help with fixing an error in their CI pipeline, use the following flow:

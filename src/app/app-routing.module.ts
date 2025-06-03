@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+<<<<<<< HEAD
 import { AppHome } from './home/home.component';
 import { ProfileComponent } from './profile/profile.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
@@ -30,6 +31,20 @@ const routes: Routes = [
   { path: '**', redirectTo: 'profile' },
 
  { path: '**', component: ErrorPageComponent },
+=======
+import { AppHome } from './home/home.component'
+import { AboutusComponent} from './aboutus/aboutus.component'
+import { ServicesComponent } from './services/services.component'
+import { ErrorPageComponent } from './error-page/error-page.component'
+const routes: Routes = [
+  {path : '', redirectTo: 'home', pathMatch: 'full'},
+  {path : 'home', component:AppHome},
+  {path : 'about', component:AboutusComponent},
+  {path : 'services', component:ServicesComponent},
+  // {path : 'error', component:ErrorPageComponent},
+  // {path : '**', redirectTo:'error'}
+  {path:'**',component:ErrorPageComponent}
+>>>>>>> e1cde9b3861c1fb0f85fc24c5d45cfb9f6235613
 ];
 
 @NgModule({
@@ -37,4 +52,7 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+<<<<<<< HEAD
 
+=======
+>>>>>>> e1cde9b3861c1fb0f85fc24c5d45cfb9f6235613
