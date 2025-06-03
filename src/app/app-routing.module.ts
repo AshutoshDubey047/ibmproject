@@ -27,7 +27,7 @@ const routes: Routes = [
      { path: 'assessment', component: AssessmentComponent },
       { path: 'career-detail', component:CareerDetailComponent },
     { path: 'final', component: FinalComponent },
- { path: '**', redirectTo: 'profile' },
+  { path: '**', redirectTo: 'profile' },
 
  { path: '**', component: ErrorPageComponent },
 ];
