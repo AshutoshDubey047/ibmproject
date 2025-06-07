@@ -1,0 +1,219 @@
+:root {
+  --primary: #2563eb;
+  --light: #f6f8fb;
+  --dark: #1e293b;
+  --accent: #38bdf8;
+}
+
+body {
+  background: var(--light);
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Top Navigation */
+.top-nav {
+  background: var(--primary);
+  color: #fff;
+  padding: 0.7rem 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+.brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.2rem 0.7rem;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+.nav-links a.active,
+.nav-links a:hover {
+  background: var(--accent);
+}
+
+/* Vision Section */
+.vision-section {
+  background: #fff;
+  padding: 2.5rem 0 2rem 0;
+}
+.vision-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.vision-text {
+  flex: 1 1 300px;
+}
+.vision-text h2 {
+  color: var(--primary);
+  margin-bottom: 1rem;
+}
+.vision-text p {
+  font-size: 1.15rem;
+  color: var(--dark);
+}
+.vision-media {
+  flex: 1 1 250px;
+  text-align: center;
+}
+.vision-media img {
+  max-width: 100%;
+  max-height: 240px;
+  border-radius: 12px;
+  box-shadow: 0 4px 18px rgba(37,99,235,0.10);
+}
+
+/* Contact Section */
+.contact-section {
+  background: var(--light);
+  padding: 2rem 0;
+}
+.contact-container {
+  max-width: 500px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 18px rgba(37,99,235,0.06);
+  padding: 2rem 2rem 1.5rem 2rem;
+}
+.contact-container h3 {
+  color: var(--primary);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.contact-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.contact-container input,
+.contact-container textarea {
+  border: 1px solid #e0e7ef;
+  border-radius: 6px;
+  padding: 0.7rem;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.2s;
+}
+.contact-container input:focus,
+.contact-container textarea:focus {
+  border: 1.5px solid var(--primary);
+}
+.contact-container button {
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.7rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.contact-container button:disabled {
+  background: #bcd2fa;
+  cursor: not-allowed;
+}
+.success-message {
+  color: var(--accent);
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: 500;
+}
+
+/* Info Row */
+.info-row {
+  background: #fff;
+  padding: 2rem 0 1.5rem 0;
+  margin-top: 2rem;
+}
+.info-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.info-col {
+  flex: 1 1 200px;
+  min-width: 200px;
+}
+.info-col h5 {
+  color: var(--primary);
+  margin-bottom: 0.7rem;
+}
+.info-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.info-col ul li {
+  margin-bottom: 0.5rem;
+  color: var(--dark);
+}
+.info-col a {
+  color: var(--primary);
+  text-decoration: none;
+  margin-right: 0.5rem;
+  transition: color 0.2s;
+}
+.info-col a:hover {
+  color: var(--accent);
+}
+.info-col address {
+  font-style: normal;
+  color: var(--dark);
+  font-size: 0.98rem;
+}
+
+/* Footer */
+footer {
+  background: var(--primary);
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  letter-spacing: 1px;
+  font-size: 1rem;
+  margin-top: 1.5rem;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+  .vision-container, .info-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  .nav-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.7rem;
+  }
+}

@@ -1,2 +1,25 @@
-<h2>hii this is the  servies page chedkiing that wr are rignhr oer not if am righr am the n ti opwjn wthisw page and idf a am righr  thre n ioe ner nhgipeu </h2>
-<p>services works!</p>
+<div class="services-header">
+  <h1>Our Services</h1>
+  <p>
+    We offer a complete suite of tools and guidance to help you succeed in your tech career journey. Explore our services below!
+  </p>
+</div>
+
+<div class="services-list">
+  <div class="service-card" *ngFor="let service of services">
+    <div class="service-icon">{{ service.icon }}</div>
+    <h3>{{ service.title }}</h3>
+    <p>{{ service.description }}</p>
+  </div>
+</div>
+
+<section class="why-choose-us">
+  <h2>Why Choose Us?</h2>
+  <ul>
+    <li>✅ AI-powered, data-driven recommendations</li>
+    <li>✅ Personalized learning and career roadmaps</li>
+    <li>✅ Real mentors and community support</li>
+    <li>✅ Regularly updated job and internship listings</li>
+    <li>✅ Free resources and tools for every learner</li>
+  </ul>
+</section>
